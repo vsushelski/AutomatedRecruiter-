@@ -40,7 +40,7 @@ public class Facebook {
     }
 
     @Test
-    public void test1() throws InterruptedException, AWTException {
+    public void testFacebook() throws InterruptedException, AWTException {
 
         driver.get("https://www.facebook.com");
         WebElement username = driver.findElement(By.id("email"));
