@@ -190,7 +190,7 @@ public class Facebook {
             System.out.println("Your excel file has been generated!");
 
         } catch ( Exception ex ) {
-            System.out.println(ex);
+            System.out.println("Exception");
         }
     }
 
